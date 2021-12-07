@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "fQcfYEPpGNPO73k24Eiju3EgtsbRXE0QVAaMW/BgBTLBaYmnN1GZhUo5a0F5yFOndA5Z2EEuOdg1HhsOXuQ5mg==",
+  "success": true,
+  "projectFilePath": "/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/MvvmCross.Plugin.File.csproj",
+  "expectedPackageFiles": [
+    "/Users/tk-lpt-401/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/mvvmcross/8.0.2/mvvmcross.8.0.2.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/nuget.build.packaging/0.2.5-dev.8/nuget.build.packaging.0.2.5-dev.8.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/tk-lpt-401/.nuget/packages/xamarin.forms/5.0.0.2244/xamarin.forms.5.0.0.2244.nupkg.sha512"
+  ],
+  "logs": []
+}

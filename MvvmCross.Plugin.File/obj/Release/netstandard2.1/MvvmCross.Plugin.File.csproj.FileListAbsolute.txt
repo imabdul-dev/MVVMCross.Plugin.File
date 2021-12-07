@@ -1,0 +1,9 @@
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/bin/Release/netstandard2.1/MvvmCross.Plugin.File.deps.json
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/bin/Release/netstandard2.1/MvvmCross.Plugin.File.dll
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/bin/Release/netstandard2.1/MvvmCross.Plugin.File.pdb
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/obj/Release/netstandard2.1/MvvmCross.Plugin.File.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/obj/Release/netstandard2.1/MvvmCross.Plugin.File.AssemblyInfoInputs.cache
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/obj/Release/netstandard2.1/MvvmCross.Plugin.File.AssemblyInfo.cs
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/obj/Release/netstandard2.1/MvvmCross.Plugin.File.csproj.CoreCompileInputs.cache
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/obj/Release/netstandard2.1/MvvmCross.Plugin.File.dll
+/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/obj/Release/netstandard2.1/MvvmCross.Plugin.File.pdb
