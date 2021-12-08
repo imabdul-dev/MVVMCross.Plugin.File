@@ -3,23 +3,19 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>Abdul.MVVMCross.Plugin.File</PackageId>
     <PackageVersion>8.0.2</PackageVersion>
-    <Authors>Abdul Rauf</Authors>
-    <PackageIconUrl>https://www.nuget.org/profiles/MvvmCross/avatar</PackageIconUrl>
     <NeutralLanguage>en</NeutralLanguage>
-    <Owners>Abdul Rauf</Owners>
-    <PackageProjectUrl>https://github.com/imabdul-dev/MVVMCross.File.Plugin</PackageProjectUrl>
-    <PackageReleaseNotes>MVVM Cross File Plugin, currently supports only iOS and Android.</PackageReleaseNotes>
-    <Summary>MVVM Cross File Plugin</Summary>
-    <Title>MVVM Cross File Plugin</Title>
+    <Configurations>Release;Debug</Configurations>
+    <PackageId>Abdul.MVVMCross.Plugin.File</PackageId>
+    <Authors>Abdul Rauf</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>MvvmCross is the .NET MVVM framework for cross-platform solutions, including Xamarin iOS, Xamarin Android, Xamarin Forms, Windows and Mac. This package contains the 'File' plugin for MvvmCross.
 This plugin supports MVVM minimum version 8.0.2.</Description>
-    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageTags>mvvmcross, mvvm cross, mvvmcross file, mvvmcross plugin, abdul</PackageTags>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
   <ItemGroup>
     <None Remove="MvvmCross" />
     <None Remove="Xamarin.Essentials" />
@@ -27,18 +23,16 @@ This plugin supports MVVM minimum version 8.0.2.</Description>
     <None Remove="Platforms\Android\" />
     <None Remove="Microsoft.Extensions.Logging" />
     <None Remove="NuGet.Build.Packaging" />
+    <None Remove="MvvmCross.Plugin.File.nuspec" />
+    <None Remove="Unofficial.MVVMCross.Plugin.File.8.0.2.nupkg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MvvmCross" Version="8.0.2" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2244" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
-    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.5-dev.8">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Platforms\Android\" />
   </ItemGroup>
+
 </Project>
