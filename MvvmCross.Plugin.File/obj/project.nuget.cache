@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ehHkSWPAq1rMGZra4U/S5ToE1zyYBRUG2XxtAcNMwJB2f8bjZWxzNAiU125S0YuGx//AvBl/JatNndBMjnmfyA==",
+  "dgSpecHash": "Y0Xw2eZ3cRUKwiRljPo62Au11lNRgAW5+enPXcv7GO8uTENKaCTQe06B5V3bgqZN/4toQ5qaEc2rKCx4dcnlVg==",
   "success": true,
-  "projectFilePath": "/Users/tk-lpt-401/Desktop/projects/VisualStudio/MvvmCross.Plugin.File/MvvmCross.Plugin.File/MvvmCross.Plugin.File.csproj",
+  "projectFilePath": "C:\\Users\\imabd\\source\\repos\\MVVMCross.Plugin.File\\MvvmCross.Plugin.File\\MvvmCross.Plugin.File.csproj",
   "expectedPackageFiles": [
-    "/Users/tk-lpt-401/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "/Users/tk-lpt-401/.nuget/packages/mvvmcross/8.0.2/mvvmcross.8.0.2.nupkg.sha512",
-    "/Users/tk-lpt-401/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/tk-lpt-401/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
-    "/Users/tk-lpt-401/.nuget/packages/xamarin.forms/5.0.0.2244/xamarin.forms.5.0.0.2244.nupkg.sha512"
+    "C:\\Users\\imabd\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\imabd\\.nuget\\packages\\mvvmcross\\9.0.2\\mvvmcross.9.0.2.nupkg.sha512"
   ],
   "logs": []
 }
