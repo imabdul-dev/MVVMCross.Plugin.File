@@ -1,38 +1,46 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>8.0.2</PackageVersion>
+    <PackageVersion>9.0.2</PackageVersion>
     <NeutralLanguage>en</NeutralLanguage>
     <Configurations>Release;Debug</Configurations>
-    <PackageId>Abdul.MVVMCross.Plugin.File</PackageId>
+    <PackageId>Unofficial.MVVMCross.Plugin.File</PackageId>
     <Authors>Abdul Rauf</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>MvvmCross is the .NET MVVM framework for cross-platform solutions, including Xamarin iOS, Xamarin Android, Xamarin Forms, Windows and Mac. This package contains the 'File' plugin for MvvmCross.
-This plugin supports MVVM minimum version 8.0.2.</Description>
+This plugin supports MVVM minimum version 9.0.2.</Description>
+    <IsPublishable>True</IsPublishable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Unofficial MVVM Cross File Plugin</Title>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://www.mvvmcross.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/imabdul-dev/MVVMCross.Plugin.File</RepositoryUrl>
+    <PackageTags>mvvmcross; mvvm cross; mvvm cross plugin; mvvm cross file; mvvm cross file plugin; mvvm; file plugin; mvvmcross file; mvvmcross file plugin; xamarin; android; ios; mac</PackageTags>
+    <PackageReleaseNotes>Updated to .net 6 and MVVM Cross 9.0.2</PackageReleaseNotes>
+    <AssemblyVersion>9.0.2</AssemblyVersion>
+    <FileVersion>9.0.2</FileVersion>
+    <Version>$(VersionPrefix) 9.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType></DebugType>
   </PropertyGroup>
+
   <ItemGroup>
-    <None Remove="MvvmCross" />
-    <None Remove="Xamarin.Essentials" />
-    <None Remove="Xamarin.Forms" />
-    <None Remove="Platforms\Android\" />
-    <None Remove="Microsoft.Extensions.Logging" />
-    <None Remove="NuGet.Build.Packaging" />
-    <None Remove="MvvmCross.Plugin.File.nuspec" />
-    <None Remove="Unofficial.MVVMCross.Plugin.File.8.0.2.nupkg" />
+    <Compile Remove="Platforms\**" />
+    <EmbeddedResource Remove="Platforms\**" />
+    <None Remove="Platforms\**" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="8.0.2" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2244" />
+	<ItemGroup>
+    <PackageReference Include="MvvmCross" Version="9.0.2" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Platforms\Android\" />
-  </ItemGroup>
+	<ItemGroup>
+	  <None Update="icon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 </Project>
